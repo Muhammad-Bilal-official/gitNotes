@@ -15,7 +15,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Easy Git By Bilal</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -26,24 +26,7 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                </li>
+                
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -51,7 +34,7 @@
             </form>
         </div>
     </nav>
-    <div class="container my-5">
+    <div class="container mt-3">
         <h1 class="text-center text-capitalize text-danger border-danger">Git Tutorioal for Bigginers</h1>
         <div class="row">
             <div class="col-10 m-auto">
@@ -91,8 +74,14 @@
             </div>
         </div>
         <div class="row">
+            <div class="col-10 col-md-12">
+                <p><strong>To use the git bash (the command shell to enter the git command) you need to first install the git </strong></p>
+                <p>To install the git on your device. Click <a href="https://git-scm.com/downloads" target="_blank">Here</a></p>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-12 my-3">
-                <div class="card mb-3 shadow-lg rounded" style="max-width: 100%;">
+                <div class="card mb-3 shadow-lg" style="max-width: 100%;">
                     <div class="row no-gutters">
                         <div class="col-md-12">
                             <img src="img/1. setAndCheckUserNameAndEmail.PNG" class="img img-fluid" alt="...">
@@ -116,14 +105,14 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <div class="card mb-3" style="max-width: 100%;">
+                <div class="card mb-3 mb-3 shadow-lg" style="max-width: 100%;">
                     <div class="row no-gutters">
                         <div class="col-md-12">
                             <img src="img/2. git init the project.PNG" class="img img-fluid" alt="...">
                         </div>
                         <div class="col-md-12">
                             <div class="card-body">
-                                <h5 class="card-title">Initializing your project folder with the git</h5>
+                                <h5 class="card-title">Initializing your project folder with the git:</h5>
                                 <p class="card-text">Whenever you start working on a project and you want to use git functionalitities and features in it then you will first have to initialize this floder:</p>
                                 <p><strong>git init</strong></p>
                                 <p>Now you can run all the git commands in this folder.</p>
@@ -137,17 +126,20 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <div class="card mb-3" style="max-width: 100%;">
+                <div class="card mb-3 mb-3 shadow-lg" style="max-width: 100%;">
                     <div class="row no-gutters">
                         <div class="col-md-12">
                             <img src="img/3. git status command.PNG" class="img img-fluid" alt="...">
                         </div>
                         <div class="col-md-12">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <h5 class="card-title">Check the status of git:</h5>
+                                <p class="card-text">To check the status of your file you can use the following command</p>
+                                <p><strong>git status</strong></p>
+                                <p><strong>untracked file means:</strong> Either You have not added these files to the git or you have modified them after adding these files to the git</p>
+                                <p>You must have to <strong>add</strong> add all the files to the git if you want to track them and <strong>commit</strong> them</p>
+                                <p><strong>commit means:</strong> that the added/tracked files can be pushed to the remote directory on some VCS hosting server like github or big bucket</p>
+                                <p></p>
                             </div>
                         </div>
                     </div>
@@ -156,17 +148,18 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <div class="card mb-3" style="max-width: 100%;">
+                <div class="card mb-3 mb-3 shadow-lg" style="max-width: 100%;">
                     <div class="row no-gutters">
                         <div class="col-md-12">
                             <img src="img/4. git add and check status then.PNG" class="img img-fluid" alt="...">
                         </div>
                         <div class="col-md-12">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <h5 class="card-title">Adding/Tracking a file/folder:</h5>
+                                <p class="card-text">To add or start track a new file/folder or modified file/folder that was already added ,you can type the following command:</p>
+                                <p><strong>git add -A</strong> (To add all untracked files and folders in the working directory)</p>
+                                <p><strong>git add .</strong> (To add all untracked files and folders in the working directory)</p>
+                                <p><strong>git add "file/folder name or relative path"</strong> (To add only selected untracked files and folders in the working directory)</p>
                             </div>
                         </div>
                     </div>
@@ -175,17 +168,18 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <div class="card mb-3" style="max-width: 100%;">
+                <div class="card mb-3 mb-3 shadow-lg" style="max-width: 100%;">
                     <div class="row no-gutters">
                         <div class="col-md-12">
                             <img src="img/5. git commit and checking git status.PNG" class="img img-fluid" alt="...">
                         </div>
                         <div class="col-md-12">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <h5 class="card-title">Commit the tracked/Added Files:</h5>
+                                <p>You can <strong>commit</strong> (make files ready to push) the files that are being tracked (i.e that has been recently added to the git only) by using the following command</p>
+                                <p><strong>git commit -m "Type any message here relevent to your changes before this commit as notes"</strong></p>
+                                <p><strong>You should check the git status repeatidly:</strong> After every add and commit because you often makes changes and add new files to your folder</p>
+                                <p class="card-text">If you create a new file or make changes to some file then only the files that were added to the tracked file will be commited and to add the new file/s too then you will have to add these untracked files also to the git by the <strong>git add command</strong> described above.    </p>
                             </div>
                         </div>
                     </div>
@@ -194,17 +188,15 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <div class="card mb-3" style="max-width: 100%;">
+                <div class="card mb-3 mb-3 shadow-lg" style="max-width: 100%;">
                     <div class="row no-gutters">
                         <div class="col-md-12">
                             <img src="img/6. git second commit.PNG" class="img img-fluid" alt="...">
                         </div>
                         <div class="col-md-12">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <h5 class="card-title">You can do as many commits as you want:</h5>
+                                <p class="card-text">You always make changes in your project and you can commit as many times as you want after modification in your project and add notes for that commit./p>
                             </div>
                         </div>
                     </div>
@@ -213,17 +205,18 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <div class="card mb-3" style="max-width: 100%;">
+                <div class="card mb-3 mb-3 shadow-lg" style="max-width: 100%;">
                     <div class="row no-gutters">
                         <div class="col-md-12">
                             <img src="img/7. git log (view all commits).PNG" class="img img-fluid" alt="...">
                         </div>
                         <div class="col-md-12">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <h5 class="card-title">See all the commits:
+                                </h5>
+                                <p class="card-text">To see all of your commits, you can use the following command:</p>
+                                <p><strong>git log</strong></p>
+                                <p>It will show the all the commits and the notes corresponding to that commits you added in a sequence with the date and time and all other details</p>
                             </div>
                         </div>
                     </div>
@@ -232,7 +225,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <div class="card mb-3" style="max-width: 100%;">
+                <div class="card mb-3 mb-3 shadow-lg" style="max-width: 100%;">
                     <div class="row no-gutters">
                         <div class="col-md-12">
                             <img src="img/8. git commit without adding a edited file.PNG" class="img img-fluid"
@@ -240,10 +233,10 @@
                         </div>
                         <div class="col-md-12">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <h5 class="card-title">Add/track and Commit a file with only one command:</h5>
+                                <p class="card-text">You can use the following command to add and commit a file at the same time:</p>
+                                <p><strong>git commit -a -m "Type any relevent note here that you want and most relevent to this commit"</strong></p>
+                                <p><strong>Note:</strong> This command only work for those untracked files and folder that were at least once added with the <strong>git add command as described above</strong> and will not work for a newly created file or a file that was never added before for tracking.</p>
                             </div>
                         </div>
                     </div>
@@ -252,17 +245,18 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <div class="card mb-3" style="max-width: 100%;">
+                <div class="card mb-3 mb-3 shadow-lg" style="max-width: 100%;">
                     <div class="row no-gutters">
                         <div class="col-md-12">
                             <img src="img/9. git first push.PNG" class="img img-fluid" alt="...">
                         </div>
                         <div class="col-md-12">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <h5 class="card-title">push your commits to the remote(online) repository: </h5>
+                                <p class="card-text">You can push your whole git working directory to the remote repository you created on the githud or girbucket etc. by using the following command:</p>
+                                <p><strong>git push -u origin master `write here your github/gitbucket etc repository path that you created`</strong></p>
+                                <p><strong>To create a new repository on github</strong> you need to create a free/premium account on github and create a new repository their</p>
+                                <p>Before using push command you will have to connect your git and github account by generating an SSH key. <strong>To know the method click <a href="https://github.com/settings/keys" target="_blank">Here</a></strong></p>
                             </div>
                         </div>
                     </div>
